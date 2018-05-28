@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex</title>
+  <style>
+  nav{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+  }
+  a{
+  font-size: 30px;
+  background-color: green;
+  padding: 10px;
+  width: 200px;
+  }
+  a:nth-child(even){
+    background-color: yellow;
+  }
+  a:last-child{
+    padding: 20px;
+  }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="">Trandafiri</a>
+  <a href="">Lalele</a>
+  <a href="">Garoafe</a>
+  <a href="">Bujori</a>
+  <a href="">Gherghine</a>
+  <a href="">Romanite</a>
+</nav>
+</body>
+</html>
